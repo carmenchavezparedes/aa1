@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+  <!-- Página Principal - Guía de Sevilla -->
+  <title>Guía de Sevilla - Inicio</title>
+  <meta name="description" content="Guía de turismo de Sevilla: monumentos, tapas, historia y tradiciones de la capital andaluza." />
+  <meta name="keywords" content="Sevilla, turismo, Giralda, Alcázar, tapas, flamenco, Andalucía" />
+  <meta name="author" content="Estudiante UDIMA" />
+  <meta name="robots" content="index" />
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background-color: #fdf6ec;
+      color: #3d1f0a;
+      margin: 0;
+      padding: 0;
+    }
+    .cabecera {
+      background-color: #e8631a;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    .cabecera h1 { font-size: 3em; margin: 0; }
+    .cabecera p { font-size: 1.1em; margin-top: 8px; }
+    .menu {
+      background-color: #3d1f0a;
+      text-align: center;
+      padding: 10px 0;
+    }
+    .menu A {
+      color: #fdf6ec;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1em;
+      font-weight: bold;
+    }
+    .menu A:hover { color: #e8631a; }
+    .contenido {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 30px;
+    }
+    h2 {
+      color: #a84b2f;
+      border-bottom: 3px solid #e8631a;
+      padding-bottom: 8px;
+    }
+    .bloque-listas {
+      display: flex;
+      gap: 40px;
+      margin-bottom: 50px;
+    }
+    .lista-bloque {
+      flex: 1;
+      background: white;
+      border: 1px solid #f5e8d0;
+      border-top: 4px solid #e8631a;
+      padding: 20px 25px;
+    }
+    .lista-bloque h3 { color: #a84b2f; margin-top: 0; }
+    OL LI, UL LI { margin: 8px 0; font-size: 1em; line-height: 1.6; }
+    TABLE { border-collapse: collapse; margin: 0 auto; }
+    TD {
+      padding: 8px;
+      border: 2px solid #c9882a;
+      text-align: center;
+      background-color: white;
+    }
+    TD A { text-decoration: none; display: block; }
+    TD IMG { display: block; margin: 0 auto 6px auto; border: 2px solid #f5e8d0; }
+    TD A:hover IMG { border-color: #e8631a; }
+    TD SPAN { color: #a84b2f; font-size: 0.85em; font-weight: bold; }
+    .pie {
+      background-color: #3d1f0a;
+      color: #f5e8d0;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+      font-size: 0.9em;
+    }
+  </style>
+</HEAD>
+<BODY>
+
+  <div class="cabecera">
+    <h1>&#127801; Guía de Sevilla</h1>
+    <p>Descubre la capital andaluza — Monumentos · Tapas · Tradiciones</p>
+  </div>
+
+  <div class="menu">
+    <A HREF="index.html">Inicio</A>
+    <A HREF="texto.html">Historia</A>
+    <A HREF="enlaces.html">Enlaces</A>
+    <A HREF="fotos.html">Fotos</A>
+    <A HREF="fondo.html">Tradiciones</A>
+    <A HREF="extra.html">Gastronomía</A>
+  </div>
+
+  <div class="contenido">
+
+    <!-- LISTAS -->
+    <h2>Lo Mejor de Sevilla</h2>
+    <div class="bloque-listas">
+
+      <div class="lista-bloque">
+        <h3>Top 4 Monumentos (lista ordenada)</h3>
+        <OL>
+          <LI>La Giralda y la Catedral de Sevilla</LI>
+          <LI>El Real Alcázar de Sevilla</LI>
+          <LI>Plaza de España</LI>
+          <LI>El Barrio de Santa Cruz</LI>
+        </OL>
+      </div>
+
+      <div class="lista-bloque">
+        <h3>Tapas Imprescindibles (lista desordenada)</h3>
+        <UL>
+          <LI>Espinacas con garbanzos</LI>
+          <LI>Montadito de pringa</LI>
+          <LI>Pavías de bacalao</LI>
+          <LI>Caracoles al ajillo</LI>
+        </UL>
+      </div>
+
+    </div>
+
+    <!-- TABLA 3x3 CON IMÁGENES LOCALES Y ENLACES -->
+    <h2>Explora la Guía — Tabla de Secciones</h2>
+    <P>Haz clic en cualquier imagen para visitar esa sección:</P>
+    <BR>
+
+    <TABLE BORDER="2">
+
+      <!-- Fila 1 -->
+      <TR>
+        <TD>
+          <A HREF="texto.html">
+            <IMG SRC="imagenes/giralda.jpg" WIDTH="150" HEIGHT="150" ALT="La Giralda">
+            <SPAN>La Giralda — Historia</SPAN>
+          </A>
+        </TD>
+        <TD>
+          <A HREF="enlaces.html">
+            <IMG SRC="imagenes/alcazar.jpg" WIDTH="150" HEIGHT="150" ALT="Alcázar">
+            <SPAN>Alcázar — Enlaces</SPAN>
+          </A>
+        </TD>
+        <TD>
+          <A HREF="fotos.html">
+            <IMG SRC="imagenes/plaza_españa.jpg" WIDTH="150" HEIGHT="150" ALT="Plaza de España">
+            <SPAN>Plaza de España — Fotos</SPAN>
+          </A>
+        </TD>
+      </TR>
+
+      <!-- Fila 2 -->
+      <TR>
+        <TD>
+          <A HREF="fondo.html">
+            <IMG SRC="imagenes/triana.jpg" WIDTH="150" HEIGHT="150" ALT="Triana">
+            <SPAN>Puente de Triana — Tradiciones</SPAN>
+          </A>
+        </TD>
+        <TD>
+          <A HREF="extra.html">
+            <IMG SRC="imagenes/semana_santa.jpg" WIDTH="150" HEIGHT="150" ALT="Semana Santa">
+            <SPAN>Semana Santa — Gastronomía</SPAN>
+          </A>
+        </TD>
+        <TD>
+          <A HREF="fondo.html">
+            <IMG SRC="imagenes/feria.jpeg" WIDTH="150" HEIGHT="150" ALT="Feria de Abril">
+            <SPAN>Feria de Abril — Tradiciones</SPAN>
+          </A>
+        </TD>
+      </TR>
+
+      <!-- Fila 3 -->
+      <TR>
+        <TD>
+          <A HREF="fotos.html">
+            <IMG SRC="imagenes/torre_del_oro.jpg" WIDTH="150" HEIGHT="150" ALT="Torre del Oro">
+            <SPAN>Torre del Oro — Fotos</SPAN>
+          </A>
+        </TD>
+        <TD>
+          <A HREF="texto.html">
+            <IMG SRC="imagenes/barrio_santa_cruz.jpg" WIDTH="150" HEIGHT="150" ALT="Barrio de Santa Cruz">
+            <SPAN>Santa Cruz — Historia</SPAN>
+          </A>
+        </TD>
+        <TD>
+          <A HREF="extra.html">
+            <IMG SRC="imagenes/flamenco.png" WIDTH="150" HEIGHT="150" ALT="Flamenco">
+            <SPAN>Flamenco — Gastronomía</SPAN>
+          </A>
+        </TD>
+      </TR>
+
+    </TABLE>
+
+  </div>
+
+  <div class="pie">
+    &copy; 2024 Guía de Sevilla &mdash; Actividad AA1 UDIMA &mdash; Aplicaciones Web
+  </div>
+
+</BODY>
+</HTML>

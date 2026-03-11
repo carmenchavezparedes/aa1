@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+  <!-- Página 6: Gastronomía — diseño libre con elementos HTML -->
+  <title>Guía de Sevilla - Gastronomía</title>
+  <meta name="description" content="Gastronomía sevillana: tapas, platos típicos y zonas de tapeo." />
+  <meta name="keywords" content="Sevilla, gastronomía, tapas, comida, platos típicos" />
+  <meta name="author" content="Estudiante UDIMA" />
+  <style>
+    body { font-family: Georgia, serif; background-color: #fdf6ec; color: #3d1f0a; margin: 0; padding: 0; }
+    .cabecera { background-color: #e8631a; color: white; text-align: center; padding: 30px 20px; }
+    .cabecera h1 { font-size: 3em; margin: 0; }
+    .cabecera p { font-size: 1.1em; margin-top: 8px; }
+    .menu { background-color: #3d1f0a; text-align: center; padding: 10px 0; }
+    .menu A { color: #fdf6ec; text-decoration: none; margin: 0 15px; font-size: 1em; font-weight: bold; }
+    .menu A:hover { color: #e8631a; }
+    .contenido { max-width: 1000px; margin: 40px auto; padding: 0 30px; }
+    h2 { color: #a84b2f; border-bottom: 3px solid #e8631a; padding-bottom: 8px; }
+    P { line-height: 1.7; }
+    TABLE { width: 100%; border-collapse: collapse; margin-bottom: 30px; }
+    TABLE TH { background-color: #a84b2f; color: white; padding: 12px 15px; text-align: left; text-transform: uppercase; font-size: 0.9em; }
+    TABLE TD { padding: 12px 15px; border-bottom: 1px solid #f5e8d0; background-color: white; }
+    TABLE TR:nth-child(even) TD { background-color: #fdf6ec; }
+    TABLE TR:hover TD { background-color: #f5e8d0; }
+    .consejo { background-color: #fff8f0; border: 2px solid #c9882a; padding: 20px 25px; margin-bottom: 30px; }
+    .consejo H3 { color: #c9882a; margin-top: 0; }
+    .lista-barrios { background: white; border: 1px solid #f5e8d0; border-top: 4px solid #e8631a; padding: 20px 25px; margin-bottom: 30px; }
+    .lista-barrios H3 { color: #a84b2f; margin-top: 0; }
+    .lista-barrios OL LI { margin: 8px 0; line-height: 1.6; }
+    .fila-foto { display: flex; gap: 20px; align-items: center; margin-bottom: 30px; background: white; border: 1px solid #f5e8d0; padding: 20px; }
+    .fila-foto P { flex: 1; line-height: 1.7; }
+    .fila-foto H3 { color: #a84b2f; margin: 0 0 8px 0; }
+    IMG { border: 3px solid #c9882a; }
+    .pie { background-color: #3d1f0a; color: #f5e8d0; text-align: center; padding: 20px; margin-top: 60px; font-size: 0.9em; }
+  </style>
+</HEAD>
+<BODY>
+
+  <div class="cabecera">
+    <h1>&#127801; Guía de Sevilla</h1>
+    <p>Gastronomía Sevillana</p>
+  </div>
+
+  <div class="menu">
+    <A HREF="index.html">Inicio</A>
+    <A HREF="texto.html">Historia</A>
+    <A HREF="enlaces.html">Enlaces</A>
+    <A HREF="fotos.html">Fotos</A>
+    <A HREF="fondo.html">Tradiciones</A>
+    <A HREF="extra.html">Gastronomía</A>
+  </div>
+
+  <div class="contenido">
+
+    <!-- FOTO CON TEXTO -->
+    <h2>&#127869;&#65039; El Flamenco y la Gastronomía</h2>
+    <div class="fila-foto">
+      <IMG SRC="imagenes/flamenco.png" WIDTH="220" HEIGHT="220" ALT="Flamenco">
+      <div>
+        <H3>Cultura y Sabor van de la Mano</H3>
+        <P>En Sevilla, la gastronomía y el flamenco comparten el mismo escenario: las tabernas y
+        bodegas donde se tapea son también los lugares donde nació el flamenco.
+        Una caña fría, unas espinacas con garbanzos y el sonido de una guitarra
+        son la esencia de Sevilla.</P>
+      </div>
+    </div>
+
+    <!-- TABLA DE TAPAS -->
+    <h2>Las Tapas Más Famosas de Sevilla</h2>
+    <P>A continuación las tapas más representativas con su descripción y precio aproximado:</P>
+    <BR>
+
+    <TABLE BORDER="1">
+      <TR>
+        <TH>Tapa</TH>
+        <TH>Descripción</TH>
+        <TH>Ingrediente principal</TH>
+        <TH>Precio aprox.</TH>
+        <TH>Origen</TH>
+      </TR>
+      <TR>
+        <TD><B>Espinacas con garbanzos</B></TD>
+        <TD>Espinacas con garbanzos cocidos, comino y pimentón</TD>
+        <TD>Espinacas</TD>
+        <TD>1,50 €</TD>
+        <TD>Árabe</TD>
+      </TR>
+      <TR>
+        <TD><B>Montadito de pringa</B></TD>
+        <TD>Pan tostado con morcilla, chorizo y carne mechada</TD>
+        <TD>Pringa de cocido</TD>
+        <TD>1,20 €</TD>
+        <TD>Sevillano</TD>
+      </TR>
+      <TR>
+        <TD><B>Pavías de bacalao</B></TD>
+        <TD>Bacalao rebozado en masa de cerveza y frito</TD>
+        <TD>Bacalao</TD>
+        <TD>1,80 €</TD>
+        <TD>Andaluz</TD>
+      </TR>
+      <TR>
+        <TD><B>Caracoles al ajillo</B></TD>
+        <TD>Caracoles en caldo con hierbabuena, laurel y especias</TD>
+        <TD>Caracoles</TD>
+        <TD>2,00 €</TD>
+        <TD>Sevillano</TD>
+      </TR>
+      <TR>
+        <TD><B>Salmorejo</B></TD>
+        <TD>Crema fría de tomate con huevo duro y jamón ibérico</TD>
+        <TD>Tomate</TD>
+        <TD>2,50 €</TD>
+        <TD>Cordobés</TD>
+      </TR>
+      <TR>
+        <TD><B>Pescaíto frito</B></TD>
+        <TD>Boquerones y cazón rebozados en harina y fritos</TD>
+        <TD>Pescado</TD>
+        <TD>3,00 €</TD>
+        <TD>Andaluz</TD>
+      </TR>
+    </TABLE>
+
+    <!-- CONSEJO -->
+    <div class="consejo">
+      <H3>&#128161; Consejo de la Guía</H3>
+      <P>En Sevilla, pedir <B>una caña y una tapa</B> es toda una institución.
+      Muchos bares tradicionales <U>regalan la tapa con la bebida</U>.
+      La costumbre es ir de bar en bar tomando una consumición en cada uno.
+      Este ritual se llama <B>"ir de tapas"</B> y es la mejor manera de conocer
+      la <U>auténtica gastronomía sevillana</U>.</P>
+    </div>
+
+    <!-- LISTA ORDENADA DE ZONAS DE TAPEO -->
+    <div class="lista-barrios">
+      <H3>Top 5 Zonas de Tapeo en Sevilla</H3>
+      <OL>
+        <LI><B>Triana</B> — Barrio castizo junto al Guadalquivir, especialista en pescaíto frito</LI>
+        <LI><B>La Macarena</B> — Ambiente popular y flamenco, cocina de guiso tradicional</LI>
+        <LI><B>Alameda de Hércules</B> — Zona joven y alternativa, tapas fusión y cervezas artesanas</LI>
+        <LI><B>El Arenal</B> — Zona marinera junto a la Torre del Oro, mariscos y frutos del mar</LI>
+        <LI><B>Barrio de Santa Cruz</B> — El más pintoresco, ideal para turistas, gazpacho y tapas variadas</LI>
+      </OL>
+    </div>
+
+    <P style="text-align:center; font-size:1.1em;">
+      &#8592; <A HREF="index.html" style="color:#a84b2f; font-weight:bold;">Volver a la Página Principal</A>
+    </P>
+
+  </div>
+
+  <div class="pie">
+    &copy; 2024 Guía de Sevilla &mdash; Actividad AA1 UDIMA &mdash; Aplicaciones Web
+  </div>
+
+</BODY>
+</HTML>
